@@ -1,0 +1,19 @@
+{
+  "seed": 42,
+  "dataset": "mind",
+  "model_type": "concat_mlp_fusion",
+  "config_file": "/root/autodl-tmp/diversity_experiment/code/configs/extended/mind_concat_mlp.yaml",
+  "checkpoint_file": "/root/autodl-tmp/diversity_experiment/code/../checkpoints/concat_mlp/mind/best_model_seed42.pt",
+  "recall@10": 0.05713081388346942,
+  "ndcg@10": 0.027552209326915187,
+  "n_eval_users": 27678,
+  "coverage@k": 0.4539089848308051,
+  "gini@k": 0.9639036403592509,
+  "entropy@k": 0.581023426312715,
+  "novelty@k": 6.225944963348445,
+  "tail_coverage@k": 0.15835076187630714,
+  "aggregate_diversity": 3501,
+  "k": 10,
+  "ils_text@k": 0.11618071463577107,
+  "ils_cf@k": 0.547631582951445
+}

@@ -1,0 +1,16 @@
+dataset,model_a,model_b,abs_delta_ndcg,abs_delta_coverage,ndcg_near_tie_ci_includes_zero,in_six_pair_subset
+amazon_cds,gbaf,fixed,0.01519491460998338,0.20996045477014336,False,True
+amazon_cds,lightgcn_only,fixed,0.006016786977195989,0.8559070687098369,False,True
+mind,gbaf,fixed,0.0009047314989165175,0.4300531570076494,True,True
+mind,lightgcn_only,fixed,0.0019236795885157372,0.6555166601841047,False,True
+yelp,gbaf,concat_mlp,0.0016363425667294046,0.30471285452236496,False,True
+yelp,lightgcn_only,fixed,0.006500412221103936,0.4701213489487795,False,True
+amazon_books,gbaf,concat_mlp,0.004167427360579743,0.07824609109449354,False,False
+amazon_books,gbaf,fixed,0.007644244029067563,0.11203263086335835,False,False
+amazon_books,gradnorm_only,concat_mlp,0.004403786556757317,0.08382053025152958,False,False
+amazon_books,lightgcn_only,fixed,0.0027135851922753845,0.8319510537049627,False,False
+amazon_cds,gbaf,concat_mlp,0.007668548807788635,0.1301903114186851,False,False
+amazon_cds,gradnorm_only,concat_mlp,0.006172549125449132,0.14551408798813636,False,False
+mind,gbaf,gradnorm_only,0.0028882481940451766,0.5573706728899261,False,False
+mind,gbaf,pcgrad,0.004397125650376801,0.5568520679372488,False,False
+yelp,concat_mlp,gradnorm_only,0.0005176834089109012,0.2633695498800621,True,False

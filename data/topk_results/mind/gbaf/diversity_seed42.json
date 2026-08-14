@@ -1,0 +1,19 @@
+{
+  "seed": 42,
+  "dataset": "mind",
+  "model_type": "gbaf_fusion",
+  "config_file": "/root/autodl-tmp/diversity_experiment/code/configs/extended/mind_gbaf.yaml",
+  "checkpoint_file": "/root/autodl-tmp/diversity_experiment/code/../checkpoints/mind/gbaf/best_model_seed42.pt",
+  "recall@10": 0.05926287223707557,
+  "ndcg@10": 0.030046501444783547,
+  "n_eval_users": 27678,
+  "coverage@k": 0.30481006093608193,
+  "gini@k": 0.9704034722360994,
+  "entropy@k": 0.5863639823367184,
+  "novelty@k": 6.303271196844873,
+  "tail_coverage@k": 0.0358530026889752,
+  "aggregate_diversity": 2351,
+  "k": 10,
+  "ils_text@k": 0.16729889553414706,
+  "ils_cf@k": 0.7305698643388274
+}

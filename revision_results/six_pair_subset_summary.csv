@@ -1,0 +1,3 @@
+subset,n_pairs,n_datasets,datasets,min_abs_delta_ndcg,median_abs_delta_ndcg,max_abs_delta_ndcg,min_abs_delta_coverage,median_abs_delta_coverage,max_abs_delta_coverage,ndcg_near_tie_pairs
+all_15_conflict_pairs,15,4,amazon_books;amazon_cds;mind;yelp,0.0005176834089109012,0.004397125650376801,0.01519491460998338,0.07824609109449354,0.30471285452236496,0.8559070687098369,2
+six_pair_validation_subset,6,3,amazon_cds;mind;yelp,0.0009047314989165175,0.003970233282855863,0.01519491460998338,0.20996045477014336,0.45008725297821445,0.8559070687098369,1

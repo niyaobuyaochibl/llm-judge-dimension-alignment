@@ -1,0 +1,720 @@
+{
+  "dataset": "amazon_cds",
+  "model_a": "lightgcn_only",
+  "model_b": "fixed",
+  "dimension": "diversity",
+  "n_trials": 100,
+  "prefer_a": 14,
+  "prefer_b": 20,
+  "tie": 0,
+  "consistency_rate": 0.34,
+  "per_trial": [
+    {
+      "user_id": 14321,
+      "fwd_verdict": "B",
+      "rev_verdict": "TIE",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 13315,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 13752,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 965,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 906,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 2105,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 14125,
+      "fwd_verdict": "B",
+      "rev_verdict": "A",
+      "consistent": true,
+      "effective_preference": "fixed"
+    },
+    {
+      "user_id": 13209,
+      "fwd_verdict": "A",
+      "rev_verdict": "B",
+      "consistent": true,
+      "effective_preference": "lightgcn_only"
+    },
+    {
+      "user_id": 5338,
+      "fwd_verdict": "A",
+      "rev_verdict": "B",
+      "consistent": true,
+      "effective_preference": "lightgcn_only"
+    },
+    {
+      "user_id": 15509,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 10856,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 4330,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 2836,
+      "fwd_verdict": "B",
+      "rev_verdict": "A",
+      "consistent": true,
+      "effective_preference": "fixed"
+    },
+    {
+      "user_id": 3628,
+      "fwd_verdict": "A",
+      "rev_verdict": "B",
+      "consistent": true,
+      "effective_preference": "lightgcn_only"
+    },
+    {
+      "user_id": 2217,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 2562,
+      "fwd_verdict": "A",
+      "rev_verdict": "B",
+      "consistent": true,
+      "effective_preference": "lightgcn_only"
+    },
+    {
+      "user_id": 13540,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 7931,
+      "fwd_verdict": "A",
+      "rev_verdict": "B",
+      "consistent": true,
+      "effective_preference": "lightgcn_only"
+    },
+    {
+      "user_id": 7089,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 4645,
+      "fwd_verdict": "A",
+      "rev_verdict": "B",
+      "consistent": true,
+      "effective_preference": "lightgcn_only"
+    },
+    {
+      "user_id": 8023,
+      "fwd_verdict": "B",
+      "rev_verdict": "B",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 12364,
+      "fwd_verdict": "B",
+      "rev_verdict": "B",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 5923,
+      "fwd_verdict": "A",
+      "rev_verdict": "B",
+      "consistent": true,
+      "effective_preference": "lightgcn_only"
+    },
+    {
+      "user_id": 3640,
+      "fwd_verdict": "A",
+      "rev_verdict": "B",
+      "consistent": true,
+      "effective_preference": "lightgcn_only"
+    },
+    {
+      "user_id": 830,
+      "fwd_verdict": "A",
+      "rev_verdict": "B",
+      "consistent": true,
+      "effective_preference": "lightgcn_only"
+    },
+    {
+      "user_id": 6005,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 8860,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 3169,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 327,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 4598,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 1726,
+      "fwd_verdict": "A",
+      "rev_verdict": "B",
+      "consistent": true,
+      "effective_preference": "lightgcn_only"
+    },
+    {
+      "user_id": 5610,
+      "fwd_verdict": "B",
+      "rev_verdict": "TIE",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 6869,
+      "fwd_verdict": "B",
+      "rev_verdict": "A",
+      "consistent": true,
+      "effective_preference": "fixed"
+    },
+    {
+      "user_id": 3484,
+      "fwd_verdict": "B",
+      "rev_verdict": "B",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 15216,
+      "fwd_verdict": "B",
+      "rev_verdict": "A",
+      "consistent": true,
+      "effective_preference": "fixed"
+    },
+    {
+      "user_id": 11615,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 10156,
+      "fwd_verdict": "B",
+      "rev_verdict": "A",
+      "consistent": true,
+      "effective_preference": "fixed"
+    },
+    {
+      "user_id": 12412,
+      "fwd_verdict": "B",
+      "rev_verdict": "B",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 8093,
+      "fwd_verdict": "B",
+      "rev_verdict": "B",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 4882,
+      "fwd_verdict": "B",
+      "rev_verdict": "A",
+      "consistent": true,
+      "effective_preference": "fixed"
+    },
+    {
+      "user_id": 9564,
+      "fwd_verdict": "B",
+      "rev_verdict": "A",
+      "consistent": true,
+      "effective_preference": "fixed"
+    },
+    {
+      "user_id": 2080,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 5010,
+      "fwd_verdict": "B",
+      "rev_verdict": "A",
+      "consistent": true,
+      "effective_preference": "fixed"
+    },
+    {
+      "user_id": 9145,
+      "fwd_verdict": "B",
+      "rev_verdict": "B",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 4439,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 15424,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 11879,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 489,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 9123,
+      "fwd_verdict": "A",
+      "rev_verdict": "B",
+      "consistent": true,
+      "effective_preference": "lightgcn_only"
+    },
+    {
+      "user_id": 10328,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 7641,
+      "fwd_verdict": "B",
+      "rev_verdict": "A",
+      "consistent": true,
+      "effective_preference": "fixed"
+    },
+    {
+      "user_id": 6905,
+      "fwd_verdict": "B",
+      "rev_verdict": "A",
+      "consistent": true,
+      "effective_preference": "fixed"
+    },
+    {
+      "user_id": 591,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 10043,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 10355,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 5469,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 12992,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 1683,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "B",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 13055,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 15146,
+      "fwd_verdict": "B",
+      "rev_verdict": "A",
+      "consistent": true,
+      "effective_preference": "fixed"
+    },
+    {
+      "user_id": 13022,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 12642,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 3051,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 9656,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 3162,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 9444,
+      "fwd_verdict": "A",
+      "rev_verdict": "B",
+      "consistent": true,
+      "effective_preference": "lightgcn_only"
+    },
+    {
+      "user_id": 11017,
+      "fwd_verdict": "B",
+      "rev_verdict": "A",
+      "consistent": true,
+      "effective_preference": "fixed"
+    },
+    {
+      "user_id": 14948,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 2628,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 15420,
+      "fwd_verdict": "B",
+      "rev_verdict": "A",
+      "consistent": true,
+      "effective_preference": "fixed"
+    },
+    {
+      "user_id": 6960,
+      "fwd_verdict": "B",
+      "rev_verdict": "B",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 13155,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "A",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 13798,
+      "fwd_verdict": "B",
+      "rev_verdict": "A",
+      "consistent": true,
+      "effective_preference": "fixed"
+    },
+    {
+      "user_id": 14516,
+      "fwd_verdict": "B",
+      "rev_verdict": "TIE",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 5048,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 15259,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 3423,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 6446,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 1717,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 12405,
+      "fwd_verdict": "B",
+      "rev_verdict": "A",
+      "consistent": true,
+      "effective_preference": "fixed"
+    },
+    {
+      "user_id": 7116,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 14403,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 6918,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 15024,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 205,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 9880,
+      "fwd_verdict": "B",
+      "rev_verdict": "A",
+      "consistent": true,
+      "effective_preference": "fixed"
+    },
+    {
+      "user_id": 10909,
+      "fwd_verdict": "B",
+      "rev_verdict": "A",
+      "consistent": true,
+      "effective_preference": "fixed"
+    },
+    {
+      "user_id": 6820,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 9856,
+      "fwd_verdict": "B",
+      "rev_verdict": "A",
+      "consistent": true,
+      "effective_preference": "fixed"
+    },
+    {
+      "user_id": 644,
+      "fwd_verdict": "B",
+      "rev_verdict": "A",
+      "consistent": true,
+      "effective_preference": "fixed"
+    },
+    {
+      "user_id": 12596,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 14987,
+      "fwd_verdict": "B",
+      "rev_verdict": "B",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 9886,
+      "fwd_verdict": "B",
+      "rev_verdict": "A",
+      "consistent": true,
+      "effective_preference": "fixed"
+    },
+    {
+      "user_id": 9527,
+      "fwd_verdict": "B",
+      "rev_verdict": "B",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 7603,
+      "fwd_verdict": "A",
+      "rev_verdict": "B",
+      "consistent": true,
+      "effective_preference": "lightgcn_only"
+    },
+    {
+      "user_id": 7416,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 679,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 232,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 5861,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 9956,
+      "fwd_verdict": "A",
+      "rev_verdict": "B",
+      "consistent": true,
+      "effective_preference": "lightgcn_only"
+    }
+  ],
+  "gt_ndcg_a": 0.016899567969702604,
+  "gt_ndcg_b": 0.010882780992506617,
+  "gt_cov_a": 0.08261245674740485,
+  "gt_cov_b": 0.9385195254572417,
+  "ndcg_winner": "lightgcn_only",
+  "cov_winner": "fixed",
+  "n_users_requested": 100
+}

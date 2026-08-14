@@ -1,0 +1,19 @@
+{
+  "seed": 42,
+  "dataset": "amazon_books",
+  "model_type": "fixed_fusion",
+  "config_file": "/root/autodl-tmp/diversity_experiment/code/configs/extended/amazon_books_lightgcn_only.yaml",
+  "checkpoint_file": "/root/autodl-tmp/diversity_experiment/code/../checkpoints/amazon_books_lightgcn_only/best_model_seed42.pt",
+  "recall@10": 0.024569214279825214,
+  "ndcg@10": 0.01171176618403904,
+  "n_eval_users": 12129,
+  "coverage@k": 0.06757307953772944,
+  "gini@k": 0.9882564785232218,
+  "entropy@k": 0.5644813500232625,
+  "novelty@k": 6.554684579972509,
+  "tail_coverage@k": 0.0,
+  "aggregate_diversity": 994,
+  "k": 10,
+  "ils_text@k": 0.22789796296209502,
+  "ils_cf@k": 0.8058023674120091
+}

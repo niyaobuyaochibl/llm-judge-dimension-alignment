@@ -1,0 +1,13 @@
+condition,dataset,model_a,model_b,dimension,n_annotations,prefer_model_a,prefer_model_b,tie,human_winner,ndcg_winner,cov_winner,aligns_ndcg,aligns_cov,mean_case_pairwise_agreement,fleiss_kappa
+global_stats,amazon_cds,gbaf,fixed,global_diversity,5,0,5,0,fixed,gbaf,fixed,False,True,1.0,1.0
+global_stats,amazon_cds,lightgcn_only,fixed,global_diversity,5,0,5,0,fixed,lightgcn_only,fixed,False,True,1.0,1.0
+global_stats,mind,gbaf,fixed,global_diversity,5,0,5,0,fixed,gbaf,fixed,False,True,1.0,1.0
+global_stats,mind,lightgcn_only,fixed,global_diversity,5,0,5,0,fixed,lightgcn_only,fixed,False,True,1.0,1.0
+global_stats,yelp,gbaf,concat_mlp,global_diversity,5,0,5,0,concat_mlp,gbaf,concat_mlp,False,True,1.0,1.0
+global_stats,yelp,lightgcn_only,fixed,global_diversity,5,0,5,0,fixed,lightgcn_only,fixed,False,True,1.0,1.0
+local_only,amazon_cds,gbaf,fixed,diversity,50,18,29,3,fixed,gbaf,fixed,False,True,0.71,0.45324283559577677
+local_only,amazon_cds,lightgcn_only,fixed,diversity,50,17,27,6,fixed,lightgcn_only,fixed,False,True,0.5599999999999999,0.23928077455048394
+local_only,mind,gbaf,fixed,diversity,50,19,24,7,fixed,gbaf,fixed,False,True,0.62,0.37252311756935275
+local_only,mind,lightgcn_only,fixed,diversity,50,26,18,6,lightgcn_only,lightgcn_only,fixed,True,False,0.67,0.43647540983606564
+local_only,yelp,gbaf,concat_mlp,diversity,50,30,15,5,gbaf,gbaf,concat_mlp,True,False,0.8,0.6296296296296298
+local_only,yelp,lightgcn_only,fixed,diversity,50,39,5,6,lightgcn_only,lightgcn_only,fixed,True,False,0.96,0.8910675381263615

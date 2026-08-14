@@ -1,0 +1,9 @@
+dimension,subset,pair_n,pair_ndcg_aligned,pair_coverage_aligned,pair_ties,pair_ndcg_alignment_pct,system_average_user_alignment_n,system_average_user_ndcg_aligned,system_average_user_ndcg_alignment_pct
+balanced,all_conflict_pairs,15,13,2,0,86.66666666666667,199,123,61.80904522613066
+balanced,exclude_ndcg_near_ties,13,11,2,0,84.61538461538461,173,105,60.69364161849711
+relevance,all_conflict_pairs,15,8,7,0,53.333333333333336,241,122,50.62240663900415
+relevance,exclude_ndcg_near_ties,13,6,7,0,46.15384615384615,207,100,48.309178743961354
+diversity,all_conflict_pairs,15,11,4,0,73.33333333333333,266,165,62.03007518796993
+diversity,exclude_ndcg_near_ties,13,10,3,0,76.92307692307692,224,144,64.28571428571429
+novelty,all_conflict_pairs,15,7,8,0,46.666666666666664,359,193,53.760445682451255
+novelty,exclude_ndcg_near_ties,13,6,7,0,46.15384615384615,304,166,54.60526315789474

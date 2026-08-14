@@ -1,0 +1,19 @@
+{
+  "seed": 42,
+  "dataset": "yelp",
+  "model_type": "gbaf_fusion",
+  "config_file": "/root/autodl-tmp/diversity_experiment/code/configs/extended/yelp_gbaf.yaml",
+  "checkpoint_file": "/root/autodl-tmp/diversity_experiment/code/../checkpoints/yelp/gbaf/best_model_seed42.pt",
+  "recall@10": 0.025145762860433962,
+  "ndcg@10": 0.01723630003424559,
+  "n_eval_users": 99165,
+  "coverage@k": 0.49294482855933397,
+  "gini@k": 0.9389144288846011,
+  "entropy@k": 0.7210724745989878,
+  "novelty@k": 8.501897368599815,
+  "tail_coverage@k": 0.22322808567012586,
+  "aggregate_diversity": 27948,
+  "k": 10,
+  "ils_text@k": 0.5462362040240544,
+  "ils_cf@k": 0.16233296326832297
+}

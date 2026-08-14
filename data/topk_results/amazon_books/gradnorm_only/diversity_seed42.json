@@ -1,0 +1,19 @@
+{
+  "seed": 42,
+  "dataset": "amazon_books",
+  "model_type": "attention_fusion",
+  "config_file": "/root/autodl-tmp/diversity_experiment/code/configs/extended/amazon_books_gradnorm_only.yaml",
+  "checkpoint_file": "/root/autodl-tmp/diversity_experiment/code/../checkpoints/amazon_books_gradnorm_only/best_model_seed42.pt",
+  "recall@10": 0.03297881111385934,
+  "ndcg@10": 0.016878784217008794,
+  "n_eval_users": 12129,
+  "coverage@k": 0.7819170632222977,
+  "gini@k": 0.7398551790773544,
+  "entropy@k": 0.8715365607640226,
+  "novelty@k": 8.11109248758488,
+  "tail_coverage@k": 0.5046421084156933,
+  "aggregate_diversity": 11502,
+  "k": 10,
+  "ils_text@k": 0.2565380702720784,
+  "ils_cf@k": 0.1752984593200838
+}

@@ -1,0 +1,19 @@
+{
+  "seed": 42,
+  "dataset": "amazon_cds",
+  "model_type": "attention_fusion",
+  "config_file": "/root/autodl-tmp/diversity_experiment/code/configs/extended/amazon_cds_gradnorm_only.yaml",
+  "checkpoint_file": "/root/autodl-tmp/diversity_experiment/code/../checkpoints/amazon_cds_gradnorm_only/best_model_seed42.pt",
+  "recall@10": 0.0482939969214982,
+  "ndcg@10": 0.024581695920150495,
+  "n_eval_users": 15592,
+  "coverage@k": 0.7132352941176471,
+  "gini@k": 0.7930529414554582,
+  "entropy@k": 0.8504084726807465,
+  "novelty@k": 7.7831808968353835,
+  "tail_coverage@k": 0.39042702956358516,
+  "aggregate_diversity": 11543,
+  "k": 10,
+  "ils_text@k": 0.3121942397476527,
+  "ils_cf@k": 0.1777345722829317
+}

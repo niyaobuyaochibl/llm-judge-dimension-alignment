@@ -1,0 +1,19 @@
+{
+  "seed": 42,
+  "dataset": "mind",
+  "model_type": "attention_fusion",
+  "config_file": "/root/autodl-tmp/diversity_experiment/code/configs/extended/mind_gradnorm_only.yaml",
+  "checkpoint_file": "/root/autodl-tmp/diversity_experiment/code/../checkpoints/mind_gradnorm_only/best_model_seed42.pt",
+  "recall@10": 0.052835327352994815,
+  "ndcg@10": 0.027158253250738364,
+  "n_eval_users": 27678,
+  "coverage@k": 0.862180733826008,
+  "gini@k": 0.8987792444509687,
+  "entropy@k": 0.6854278564915842,
+  "novelty@k": 7.30470290003502,
+  "tail_coverage@k": 0.775918733193905,
+  "aggregate_diversity": 6650,
+  "k": 10,
+  "ils_text@k": 0.17830776082975916,
+  "ils_cf@k": 0.6015855715243229
+}

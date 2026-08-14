@@ -1,0 +1,19 @@
+{
+  "seed": 42,
+  "dataset": "yelp",
+  "model_type": "fixed_fusion",
+  "config_file": "/root/autodl-tmp/diversity_experiment/code/configs/extended/yelp_fixed_baseline.yaml",
+  "checkpoint_file": "/root/autodl-tmp/diversity_experiment/code/../checkpoints/yelp/fixed/best_model_seed42.pt",
+  "recall@10": 0.008577688265728713,
+  "ndcg@10": 0.006031406282086804,
+  "n_eval_users": 99165,
+  "coverage@k": 0.4758007619585156,
+  "gini@k": 0.9266736886841731,
+  "entropy@k": 0.752489734747347,
+  "novelty@k": 10.217010780333144,
+  "tail_coverage@k": 0.3551188636196364,
+  "aggregate_diversity": 26976,
+  "k": 10,
+  "ils_text@k": 0.5919341454520105,
+  "ils_cf@k": 0.06089050884973869
+}

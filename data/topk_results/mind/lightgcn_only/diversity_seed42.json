@@ -1,0 +1,19 @@
+{
+  "seed": 42,
+  "dataset": "mind",
+  "model_type": "fixed_fusion",
+  "config_file": "/root/autodl-tmp/diversity_experiment/code/configs/extended/mind_lightgcn_only.yaml",
+  "checkpoint_file": "/root/autodl-tmp/diversity_experiment/code/../checkpoints/mind_lightgcn_only/best_model_seed42.pt",
+  "recall@10": 0.06572101273488656,
+  "ndcg@10": 0.03106544953438276,
+  "n_eval_users": 27678,
+  "coverage@k": 0.07934655775962661,
+  "gini@k": 0.9964161096296169,
+  "entropy@k": 0.3939809481928575,
+  "novelty@k": 4.983915173904384,
+  "tail_coverage@k": 0.014639976097998207,
+  "aggregate_diversity": 612,
+  "k": 10,
+  "ils_text@k": 0.118052726253879,
+  "ils_cf@k": 0.8366106994424789
+}

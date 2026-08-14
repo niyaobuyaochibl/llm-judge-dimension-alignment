@@ -1,0 +1,19 @@
+{
+  "seed": 42,
+  "dataset": "mind",
+  "model_type": "attention_fusion",
+  "config_file": "/root/autodl-tmp/diversity_experiment/code/configs/extended/mind_pcgrad.yaml",
+  "checkpoint_file": "/root/autodl-tmp/diversity_experiment/code/../checkpoints/mind_pcgrad/best_model_seed42.pt",
+  "recall@10": 0.05061646930279056,
+  "ndcg@10": 0.02564937579440674,
+  "n_eval_users": 27678,
+  "coverage@k": 0.8616621288733307,
+  "gini@k": 0.8756213485701785,
+  "entropy@k": 0.6672446190308655,
+  "novelty@k": 7.663386435265545,
+  "tail_coverage@k": 0.7881685091126381,
+  "aggregate_diversity": 6646,
+  "k": 10,
+  "ils_text@k": 0.19094363770788395,
+  "ils_cf@k": 0.47778306853171487
+}

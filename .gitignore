@@ -1,0 +1,26 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+*.log
+*.bak
+*.bak[0-9]
+*.tmp
+*.swp
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# never commit credentials
+.env
+*.key
+api_key*
+*_token.txt
+
+# the source datasets are not redistributed; see data/README.md
+data/datasets/
+*.pkl

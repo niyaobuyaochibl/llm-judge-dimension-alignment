@@ -1,0 +1,3 @@
+condition,dimension,pairs,ndcg_pairs,coverage_pairs,tie_pairs,ndcg_pair_pct,coverage_pair_pct,mean_pairwise_agreement,mean_fleiss_kappa
+global_stats,global_diversity,6,0,6,0,0.0,100.0,1.0,1.0
+local_only,diversity,6,3,3,0,50.0,50.0,0.7200000000000001,0.5037032175512784

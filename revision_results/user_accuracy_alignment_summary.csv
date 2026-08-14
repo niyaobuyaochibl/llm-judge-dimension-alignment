@@ -1,0 +1,5 @@
+dimension,consistent_verdicts,system_average_ndcg_aligned,system_average_ndcg_eligible_n,system_average_ndcg_alignment_pct,system_average_ndcg_metric_ties,system_average_ndcg_missing,user_ndcg_aligned,user_ndcg_eligible_n,user_ndcg_alignment_pct,user_ndcg_metric_ties,user_ndcg_missing,user_recall_aligned,user_recall_eligible_n,user_recall_alignment_pct,user_recall_metric_ties,user_recall_missing
+balanced,199,123,199,61.80904522613066,0,0,6,12,50.0,187,0,5,11,45.45454545454545,188,0
+relevance,241,122,241,50.62240663900415,0,0,8,15,53.333333333333336,226,0,7,14,50.0,227,0
+diversity,266,165,266,62.03007518796993,0,0,8,15,53.333333333333336,251,0,8,13,61.53846153846154,253,0
+novelty,359,193,359,53.760445682451255,0,0,14,25,56.0,334,0,14,23,60.869565217391305,336,0

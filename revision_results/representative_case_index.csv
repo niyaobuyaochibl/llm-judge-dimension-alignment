@@ -1,0 +1,4 @@
+dataset,dimension,model_a,model_b,user_id,effective_preference,ndcg_winner,coverage_winner,fwd_verdict,rev_verdict,consistent,a_text_distance,b_text_distance,a_category_count,b_category_count,a_desc_len,b_desc_len,a_history_similarity,b_history_similarity,a_average_popularity,b_average_popularity,case_type
+amazon_books,diversity,gbaf,concat_mlp,11134,gbaf,gbaf,concat_mlp,A,B,True,0.9328785411336216,0.9779721673834195,,,75.1,20.7,0.04514951080318639,0.02930770821314861,3.0339079316998756,3.230970560988664,diversity_prompt_failure
+amazon_books,novelty,gbaf,concat_mlp,7688,concat_mlp,gbaf,concat_mlp,B,A,True,0.96737191338794,0.9618584360815464,,,134.0,115.7,0.026257274490528365,0.028704839984990765,3.1607499055299755,4.0956369001374675,novelty_or_beyond_accuracy_success
+amazon_books,balanced,gbaf,concat_mlp,4270,INCONSISTENT,gbaf,concat_mlp,A,A,False,,,,,,,,,,,order_swap_flip

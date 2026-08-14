@@ -1,0 +1,371 @@
+{
+  "dataset": "mind",
+  "model_a": "gbaf",
+  "model_b": "fixed",
+  "dimension": "balanced",
+  "n_trials": 50,
+  "prefer_a": 21,
+  "prefer_b": 10,
+  "tie": 0,
+  "consistency_rate": 0.62,
+  "per_trial": [
+    {
+      "user_id": 7434,
+      "fwd_verdict": "B",
+      "rev_verdict": "A",
+      "consistent": true,
+      "effective_preference": "fixed"
+    },
+    {
+      "user_id": 23211,
+      "fwd_verdict": "A",
+      "rev_verdict": "B",
+      "consistent": true,
+      "effective_preference": "gbaf"
+    },
+    {
+      "user_id": 44378,
+      "fwd_verdict": "A",
+      "rev_verdict": "B",
+      "consistent": true,
+      "effective_preference": "gbaf"
+    },
+    {
+      "user_id": 29787,
+      "fwd_verdict": "A",
+      "rev_verdict": "B",
+      "consistent": true,
+      "effective_preference": "gbaf"
+    },
+    {
+      "user_id": 35942,
+      "fwd_verdict": "B",
+      "rev_verdict": "A",
+      "consistent": true,
+      "effective_preference": "fixed"
+    },
+    {
+      "user_id": 34804,
+      "fwd_verdict": "A",
+      "rev_verdict": "B",
+      "consistent": true,
+      "effective_preference": "gbaf"
+    },
+    {
+      "user_id": 5744,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 28130,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 42678,
+      "fwd_verdict": "B",
+      "rev_verdict": "A",
+      "consistent": true,
+      "effective_preference": "fixed"
+    },
+    {
+      "user_id": 40271,
+      "fwd_verdict": "B",
+      "rev_verdict": "B",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 11108,
+      "fwd_verdict": "A",
+      "rev_verdict": "B",
+      "consistent": true,
+      "effective_preference": "gbaf"
+    },
+    {
+      "user_id": 42800,
+      "fwd_verdict": "A",
+      "rev_verdict": "B",
+      "consistent": true,
+      "effective_preference": "gbaf"
+    },
+    {
+      "user_id": 36267,
+      "fwd_verdict": "A",
+      "rev_verdict": "B",
+      "consistent": true,
+      "effective_preference": "gbaf"
+    },
+    {
+      "user_id": 34889,
+      "fwd_verdict": "B",
+      "rev_verdict": "A",
+      "consistent": true,
+      "effective_preference": "fixed"
+    },
+    {
+      "user_id": 23071,
+      "fwd_verdict": "A",
+      "rev_verdict": "B",
+      "consistent": true,
+      "effective_preference": "gbaf"
+    },
+    {
+      "user_id": 10550,
+      "fwd_verdict": "A",
+      "rev_verdict": "B",
+      "consistent": true,
+      "effective_preference": "gbaf"
+    },
+    {
+      "user_id": 10179,
+      "fwd_verdict": "A",
+      "rev_verdict": "B",
+      "consistent": true,
+      "effective_preference": "gbaf"
+    },
+    {
+      "user_id": 35948,
+      "fwd_verdict": "B",
+      "rev_verdict": "A",
+      "consistent": true,
+      "effective_preference": "fixed"
+    },
+    {
+      "user_id": 11583,
+      "fwd_verdict": "A",
+      "rev_verdict": "B",
+      "consistent": true,
+      "effective_preference": "gbaf"
+    },
+    {
+      "user_id": 1788,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 9150,
+      "fwd_verdict": "A",
+      "rev_verdict": "B",
+      "consistent": true,
+      "effective_preference": "gbaf"
+    },
+    {
+      "user_id": 7340,
+      "fwd_verdict": "A",
+      "rev_verdict": "B",
+      "consistent": true,
+      "effective_preference": "gbaf"
+    },
+    {
+      "user_id": 15683,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 13700,
+      "fwd_verdict": "B",
+      "rev_verdict": "A",
+      "consistent": true,
+      "effective_preference": "fixed"
+    },
+    {
+      "user_id": 6098,
+      "fwd_verdict": "B",
+      "rev_verdict": "B",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 25687,
+      "fwd_verdict": "B",
+      "rev_verdict": "B",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 2433,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 19543,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 38081,
+      "fwd_verdict": "B",
+      "rev_verdict": "A",
+      "consistent": true,
+      "effective_preference": "fixed"
+    },
+    {
+      "user_id": 1606,
+      "fwd_verdict": "B",
+      "rev_verdict": "B",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 23498,
+      "fwd_verdict": "B",
+      "rev_verdict": "B",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 21367,
+      "fwd_verdict": "B",
+      "rev_verdict": "B",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 28272,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 40745,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 36746,
+      "fwd_verdict": "B",
+      "rev_verdict": "B",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 38547,
+      "fwd_verdict": "B",
+      "rev_verdict": "A",
+      "consistent": true,
+      "effective_preference": "fixed"
+    },
+    {
+      "user_id": 49103,
+      "fwd_verdict": "B",
+      "rev_verdict": "B",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 47365,
+      "fwd_verdict": "A",
+      "rev_verdict": "B",
+      "consistent": true,
+      "effective_preference": "gbaf"
+    },
+    {
+      "user_id": 28263,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 32336,
+      "fwd_verdict": "A",
+      "rev_verdict": "B",
+      "consistent": true,
+      "effective_preference": "gbaf"
+    },
+    {
+      "user_id": 8882,
+      "fwd_verdict": "A",
+      "rev_verdict": "B",
+      "consistent": true,
+      "effective_preference": "gbaf"
+    },
+    {
+      "user_id": 47760,
+      "fwd_verdict": "B",
+      "rev_verdict": "A",
+      "consistent": true,
+      "effective_preference": "fixed"
+    },
+    {
+      "user_id": 16461,
+      "fwd_verdict": "B",
+      "rev_verdict": "B",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 13130,
+      "fwd_verdict": "A",
+      "rev_verdict": "B",
+      "consistent": true,
+      "effective_preference": "gbaf"
+    },
+    {
+      "user_id": 29524,
+      "fwd_verdict": "B",
+      "rev_verdict": "A",
+      "consistent": true,
+      "effective_preference": "fixed"
+    },
+    {
+      "user_id": 9734,
+      "fwd_verdict": "A",
+      "rev_verdict": "B",
+      "consistent": true,
+      "effective_preference": "gbaf"
+    },
+    {
+      "user_id": 661,
+      "fwd_verdict": "A",
+      "rev_verdict": "B",
+      "consistent": true,
+      "effective_preference": "gbaf"
+    },
+    {
+      "user_id": 47453,
+      "fwd_verdict": "B",
+      "rev_verdict": "B",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 45371,
+      "fwd_verdict": "A",
+      "rev_verdict": "B",
+      "consistent": true,
+      "effective_preference": "gbaf"
+    },
+    {
+      "user_id": 5306,
+      "fwd_verdict": "A",
+      "rev_verdict": "B",
+      "consistent": true,
+      "effective_preference": "gbaf"
+    }
+  ],
+  "gt_ndcg_a": 0.030046501444783547,
+  "gt_ndcg_b": 0.02914176994586703,
+  "gt_cov_a": 0.30481006093608193,
+  "gt_cov_b": 0.7348632179437313,
+  "gt_nov_a": 6.303271196844873,
+  "gt_nov_b": 6.422687844842742,
+  "ndcg_winner": "gbaf",
+  "cov_winner": "fixed"
+}

@@ -1,0 +1,372 @@
+{
+  "dataset": "amazon_books",
+  "model_a": "gbaf",
+  "model_b": "concat_mlp",
+  "dimension": "relevance",
+  "n_trials": 50,
+  "prefer_a": 16,
+  "prefer_b": 5,
+  "tie": 0,
+  "consistency_rate": 0.42,
+  "per_trial": [
+    {
+      "user_id": 3606,
+      "fwd_verdict": "B",
+      "rev_verdict": "B",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 4270,
+      "fwd_verdict": "B",
+      "rev_verdict": "A",
+      "consistent": true,
+      "effective_preference": "concat_mlp"
+    },
+    {
+      "user_id": 11134,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 9277,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 10671,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 4473,
+      "fwd_verdict": "B",
+      "rev_verdict": "B",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 7688,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 1937,
+      "fwd_verdict": "A",
+      "rev_verdict": "B",
+      "consistent": true,
+      "effective_preference": "gbaf"
+    },
+    {
+      "user_id": 11974,
+      "fwd_verdict": "A",
+      "rev_verdict": "B",
+      "consistent": true,
+      "effective_preference": "gbaf"
+    },
+    {
+      "user_id": 4457,
+      "fwd_verdict": "B",
+      "rev_verdict": "B",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 11015,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 296,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 10134,
+      "fwd_verdict": "A",
+      "rev_verdict": "B",
+      "consistent": true,
+      "effective_preference": "gbaf"
+    },
+    {
+      "user_id": 5237,
+      "fwd_verdict": "B",
+      "rev_verdict": "B",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 8215,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 1754,
+      "fwd_verdict": "B",
+      "rev_verdict": "A",
+      "consistent": true,
+      "effective_preference": "concat_mlp"
+    },
+    {
+      "user_id": 5989,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 4611,
+      "fwd_verdict": "A",
+      "rev_verdict": "B",
+      "consistent": true,
+      "effective_preference": "gbaf"
+    },
+    {
+      "user_id": 12090,
+      "fwd_verdict": "A",
+      "rev_verdict": "B",
+      "consistent": true,
+      "effective_preference": "gbaf"
+    },
+    {
+      "user_id": 5044,
+      "fwd_verdict": "A",
+      "rev_verdict": "B",
+      "consistent": true,
+      "effective_preference": "gbaf"
+    },
+    {
+      "user_id": 11577,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 9664,
+      "fwd_verdict": "A",
+      "rev_verdict": "B",
+      "consistent": true,
+      "effective_preference": "gbaf"
+    },
+    {
+      "user_id": 11455,
+      "fwd_verdict": "A",
+      "rev_verdict": "B",
+      "consistent": true,
+      "effective_preference": "gbaf"
+    },
+    {
+      "user_id": 5158,
+      "fwd_verdict": "B",
+      "rev_verdict": "B",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 6885,
+      "fwd_verdict": "A",
+      "rev_verdict": "B",
+      "consistent": true,
+      "effective_preference": "gbaf"
+    },
+    {
+      "user_id": 900,
+      "fwd_verdict": "B",
+      "rev_verdict": "B",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 1322,
+      "fwd_verdict": "A",
+      "rev_verdict": "B",
+      "consistent": true,
+      "effective_preference": "gbaf"
+    },
+    {
+      "user_id": 1866,
+      "fwd_verdict": "A",
+      "rev_verdict": "B",
+      "consistent": true,
+      "effective_preference": "gbaf"
+    },
+    {
+      "user_id": 6259,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 10368,
+      "fwd_verdict": "A",
+      "rev_verdict": "B",
+      "consistent": true,
+      "effective_preference": "gbaf"
+    },
+    {
+      "user_id": 8680,
+      "fwd_verdict": "A",
+      "rev_verdict": "B",
+      "consistent": true,
+      "effective_preference": "gbaf"
+    },
+    {
+      "user_id": 906,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 3864,
+      "fwd_verdict": "B",
+      "rev_verdict": "A",
+      "consistent": true,
+      "effective_preference": "concat_mlp"
+    },
+    {
+      "user_id": 552,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 5268,
+      "fwd_verdict": "B",
+      "rev_verdict": "B",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 10324,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 6638,
+      "fwd_verdict": "B",
+      "rev_verdict": "B",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 1804,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 8679,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 9111,
+      "fwd_verdict": "A",
+      "rev_verdict": "B",
+      "consistent": true,
+      "effective_preference": "gbaf"
+    },
+    {
+      "user_id": 4263,
+      "fwd_verdict": "A",
+      "rev_verdict": "B",
+      "consistent": true,
+      "effective_preference": "gbaf"
+    },
+    {
+      "user_id": 1015,
+      "fwd_verdict": "A",
+      "rev_verdict": "B",
+      "consistent": true,
+      "effective_preference": "gbaf"
+    },
+    {
+      "user_id": 8449,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 5335,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 4068,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 2794,
+      "fwd_verdict": "B",
+      "rev_verdict": "A",
+      "consistent": true,
+      "effective_preference": "concat_mlp"
+    },
+    {
+      "user_id": 2553,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 5564,
+      "fwd_verdict": "B",
+      "rev_verdict": "B",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 2723,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT"
+    },
+    {
+      "user_id": 12068,
+      "fwd_verdict": "B",
+      "rev_verdict": "A",
+      "consistent": true,
+      "effective_preference": "concat_mlp"
+    }
+  ],
+  "gt_ndcg_a": 0.016642425020831214,
+  "gt_ndcg_b": 0.012474997660251475,
+  "gt_cov_a": 0.7874915023793337,
+  "gt_cov_b": 0.8657375934738273,
+  "gt_nov_a": 8.168114891789727,
+  "gt_nov_b": 8.357553886338287,
+  "ndcg_winner": "gbaf",
+  "cov_winner": "concat_mlp",
+  "nov_winner": "concat_mlp"
+}

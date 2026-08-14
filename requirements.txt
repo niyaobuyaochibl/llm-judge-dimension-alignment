@@ -1,0 +1,16 @@
+# Analysis only: enough to regenerate every number, table, and figure from results/
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+matplotlib>=3.7
+statsmodels>=0.14
+scikit-learn>=1.3
+
+# Additionally needed to re-run the locally hosted judges (Qwen2.5-7B/14B, Mistral-7B)
+torch>=2.0
+transformers>=4.40
+accelerate>=0.30
+bitsandbytes>=0.43        # 4-bit quantization for the 14B judge
+
+# Additionally needed for the DeepSeek-V3 API validation
+openai>=1.30

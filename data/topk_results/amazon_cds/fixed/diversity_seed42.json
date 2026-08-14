@@ -1,0 +1,19 @@
+{
+  "seed": 42,
+  "dataset": "amazon_cds",
+  "model_type": "fixed_fusion",
+  "config_file": "/root/autodl-tmp/diversity_experiment/code/configs/extended/amazon_cds_fixed_baseline.yaml",
+  "checkpoint_file": "/root/autodl-tmp/diversity_experiment/code/../checkpoints/amazon_cds_fixed/best_model_seed42.pt",
+  "recall@10": 0.02090815802975885,
+  "ndcg@10": 0.010882780992506617,
+  "n_eval_users": 15592,
+  "coverage@k": 0.9385195254572417,
+  "gini@k": 0.6029620696330323,
+  "entropy@k": 0.921512958796221,
+  "novelty@k": 8.790915201604635,
+  "tail_coverage@k": 0.9089629282027217,
+  "aggregate_diversity": 15189,
+  "k": 10,
+  "ils_text@k": 0.3628832283269723,
+  "ils_cf@k": 0.05365993635021249
+}

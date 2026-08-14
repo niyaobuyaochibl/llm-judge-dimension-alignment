@@ -1,0 +1,19 @@
+{
+  "seed": 42,
+  "dataset": "yelp",
+  "model_type": "attention_fusion",
+  "config_file": "/root/autodl-tmp/diversity_experiment/code/configs/extended/yelp_pcgrad.yaml",
+  "checkpoint_file": "/root/autodl-tmp/diversity_experiment/code/../checkpoints/yelp_pcgrad/best_model_seed42.pt",
+  "recall@10": 0.014753061363400375,
+  "ndcg@10": 0.010035830152205915,
+  "n_eval_users": 99165,
+  "coverage@k": 0.19191830111471708,
+  "gini@k": 0.9734098869414557,
+  "entropy@k": 0.6888662260648588,
+  "novelty@k": 8.48939060193683,
+  "tail_coverage@k": 0.031795098255685585,
+  "aggregate_diversity": 10881,
+  "k": 10,
+  "ils_text@k": 0.5563067715199735,
+  "ils_cf@k": 0.04838718048193105
+}

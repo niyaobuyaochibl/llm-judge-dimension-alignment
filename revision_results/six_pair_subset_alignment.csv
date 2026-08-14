@@ -1,0 +1,9 @@
+dimension,subset,n_pairs,ndcg_aligned,coverage_aligned,ties,ndcg_alignment_pct
+balanced,all_15_conflict_pairs,15,13,2,0,86.66666666666667
+balanced,six_pair_validation_subset,6,5,1,0,83.33333333333333
+relevance,all_15_conflict_pairs,15,8,7,0,53.333333333333336
+relevance,six_pair_validation_subset,6,3,3,0,50.0
+diversity,all_15_conflict_pairs,15,11,4,0,73.33333333333333
+diversity,six_pair_validation_subset,6,6,0,0,100.0
+novelty,all_15_conflict_pairs,15,7,8,0,46.666666666666664
+novelty,six_pair_validation_subset,6,3,3,0,50.0

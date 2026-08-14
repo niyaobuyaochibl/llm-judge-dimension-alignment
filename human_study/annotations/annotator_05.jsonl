@@ -1,0 +1,66 @@
+{"annotator_id": "annotator_05", "case_id": "mind__lightgcn_only_vs_fixed__diversity__u44378__rev", "verdict": "A", "confidence_1_to_5": 3, "notes_optional": "Tied top cats; A has unique health topic"}
+{"annotator_id": "annotator_05", "case_id": "amazon_cds__lightgcn_only_vs_fixed__diversity__u14321__fwd", "verdict": "B", "confidence_1_to_5": 4, "notes_optional": "A all metal; B has Strokes (indie)"}
+{"annotator_id": "annotator_05", "case_id": "mind__lightgcn_only_vs_fixed__diversity__u28130__fwd", "verdict": "A", "confidence_1_to_5": 4, "notes_optional": "A 6 cats vs B 3 cats (weather-heavy)"}
+{"annotator_id": "annotator_05", "case_id": "amazon_cds__lightgcn_only_vs_fixed__diversity__u15509__rev", "verdict": "B", "confidence_1_to_5": 3, "notes_optional": "B has more genre spread (jazz, pop, classic rock)"}
+{"annotator_id": "annotator_05", "case_id": "amazon_cds__gbaf_vs_fixed__diversity__u15509__fwd", "verdict": "A", "confidence_1_to_5": 3, "notes_optional": "A has punk (Clash), broader variety"}
+{"annotator_id": "annotator_05", "case_id": "yelp__lightgcn_only_vs_fixed__diversity__u2600__rev", "verdict": "B", "confidence_1_to_5": 4, "notes_optional": "B has more categories"}
+{"annotator_id": "annotator_05", "case_id": "mind__gbaf_vs_fixed__diversity__u44378__fwd", "verdict": "B", "confidence_1_to_5": 3, "notes_optional": "B has 6 cats (incl health) vs A 5"}
+{"annotator_id": "annotator_05", "case_id": "yelp__lightgcn_only_vs_fixed__diversity__u24594__rev", "verdict": "B", "confidence_1_to_5": 5, "notes_optional": "B 61 cats vs A 28"}
+{"annotator_id": "annotator_05", "case_id": "amazon_cds__gbaf_vs_fixed__diversity__u14125__fwd", "verdict": "B", "confidence_1_to_5": 4, "notes_optional": "B has Police, Supremes, Elvis; A all classic rock"}
+{"annotator_id": "annotator_05", "case_id": "mind__lightgcn_only_vs_fixed__diversity__u5744__rev", "verdict": "A", "confidence_1_to_5": 4, "notes_optional": "A has 6 cats including unique autos/movies"}
+{"annotator_id": "annotator_05", "case_id": "yelp__gbaf_vs_concat_mlp__diversity__u33987__fwd", "verdict": "B", "confidence_1_to_5": 3, "notes_optional": "B has food+hotel variety vs A all nightlife"}
+{"annotator_id": "annotator_05", "case_id": "yelp__gbaf_vs_concat_mlp__diversity__u47111__fwd", "verdict": "A", "confidence_1_to_5": 4, "notes_optional": "A 36 cats with multiple cuisines"}
+{"annotator_id": "annotator_05", "case_id": "yelp__gbaf_vs_concat_mlp__diversity__u362__rev", "verdict": "B", "confidence_1_to_5": 3, "notes_optional": "B 34 vs A 26"}
+{"annotator_id": "annotator_05", "case_id": "yelp__lightgcn_only_vs_fixed__diversity__u18392__rev", "verdict": "B", "confidence_1_to_5": 4, "notes_optional": "B more cuisine variety"}
+{"annotator_id": "annotator_05", "case_id": "yelp__gbaf_vs_concat_mlp__diversity__u19308__rev", "verdict": "B", "confidence_1_to_5": 4, "notes_optional": "B 58 vs A 36"}
+{"annotator_id": "annotator_05", "case_id": "mind__gbaf_vs_fixed__diversity__u40271__rev", "verdict": "TIE", "confidence_1_to_5": 3, "notes_optional": "Lists look identical"}
+{"annotator_id": "annotator_05", "case_id": "yelp__lightgcn_only_vs_fixed__diversity__u362__fwd", "verdict": "A", "confidence_1_to_5": 2, "notes_optional": "A 31 vs B 25"}
+{"annotator_id": "annotator_05", "case_id": "amazon_cds__lightgcn_only_vs_fixed__diversity__u965__rev", "verdict": "A", "confidence_1_to_5": 3, "notes_optional": "A has country, punk, Stooges"}
+{"annotator_id": "annotator_05", "case_id": "amazon_cds__lightgcn_only_vs_fixed__diversity__u13315__fwd", "verdict": "A", "confidence_1_to_5": 3, "notes_optional": "A has punk, grunge variety"}
+{"annotator_id": "annotator_05", "case_id": "mind__lightgcn_only_vs_fixed__diversity__u40271__fwd", "verdict": "A", "confidence_1_to_5": 2, "notes_optional": "Slight A edge on subcats"}
+{"annotator_id": "annotator_05", "case_id": "mind__lightgcn_only_vs_fixed__diversity__u42678__fwd", "verdict": "A", "confidence_1_to_5": 3, "notes_optional": "A has 6 cats including elections, sports"}
+{"annotator_id": "annotator_05", "case_id": "amazon_cds__lightgcn_only_vs_fixed__diversity__u13752__fwd", "verdict": "B", "confidence_1_to_5": 3, "notes_optional": "B has country, soundtrack, blues variety"}
+{"annotator_id": "annotator_05", "case_id": "yelp__gbaf_vs_concat_mlp__diversity__u18930__fwd", "verdict": "B", "confidence_1_to_5": 3, "notes_optional": "B 31 vs A 25"}
+{"annotator_id": "annotator_05", "case_id": "mind__gbaf_vs_fixed__diversity__u5744__fwd", "verdict": "B", "confidence_1_to_5": 3, "notes_optional": "B has 6 cats vs A 4"}
+{"annotator_id": "annotator_05", "case_id": "amazon_cds__gbaf_vs_fixed__diversity__u13752__fwd", "verdict": "TIE", "confidence_1_to_5": 2, "notes_optional": "Both lists diverse; A has hip hop, B has country/soundtrack"}
+{"annotator_id": "annotator_05", "case_id": "yelp__gbaf_vs_concat_mlp__diversity__u18392__rev", "verdict": "B", "confidence_1_to_5": 2, "notes_optional": "B 31 vs A 27"}
+{"annotator_id": "annotator_05", "case_id": "amazon_cds__gbaf_vs_fixed__diversity__u13315__rev", "verdict": "B", "confidence_1_to_5": 3, "notes_optional": "B has pop-punk, grunge, R&B variety"}
+{"annotator_id": "annotator_05", "case_id": "amazon_cds__lightgcn_only_vs_fixed__diversity__u13209__rev", "verdict": "A", "confidence_1_to_5": 3, "notes_optional": "A diverse live artists vs B all Pink Floyd"}
+{"annotator_id": "annotator_05", "case_id": "yelp__gbaf_vs_concat_mlp__diversity__u24594__fwd", "verdict": "A", "confidence_1_to_5": 4, "notes_optional": "A 29 vs B 26 with Indian, Pakistani, BBQ, halal"}
+{"annotator_id": "annotator_05", "case_id": "mind__gbaf_vs_fixed__diversity__u34804__rev", "verdict": "A", "confidence_1_to_5": 3, "notes_optional": "A 6 cats vs B 4"}
+{"annotator_id": "annotator_05", "case_id": "yelp__lightgcn_only_vs_fixed__diversity__u47111__rev", "verdict": "B", "confidence_1_to_5": 2, "notes_optional": "B 59 vs A 53"}
+{"annotator_id": "annotator_05", "case_id": "yelp__lightgcn_only_vs_fixed__diversity__u81116__fwd", "verdict": "A", "confidence_1_to_5": 3, "notes_optional": "A 44 vs B 31"}
+{"annotator_id": "annotator_05", "case_id": "amazon_cds__gbaf_vs_fixed__diversity__u965__fwd", "verdict": "B", "confidence_1_to_5": 3, "notes_optional": "B has country, punk, indie variety"}
+{"annotator_id": "annotator_05", "case_id": "amazon_cds__lightgcn_only_vs_fixed__diversity__u14125__fwd", "verdict": "A", "confidence_1_to_5": 3, "notes_optional": "A has Beatles/Pink Floyd/Hendrix variety"}
+{"annotator_id": "annotator_05", "case_id": "mind__lightgcn_only_vs_fixed__diversity__u35942__rev", "verdict": "B", "confidence_1_to_5": 4, "notes_optional": "A is crime-heavy, B 6 cats"}
+{"annotator_id": "annotator_05", "case_id": "yelp__gbaf_vs_concat_mlp__diversity__u78602__rev", "verdict": "B", "confidence_1_to_5": 2, "notes_optional": "B 31 vs A 29"}
+{"annotator_id": "annotator_05", "case_id": "amazon_cds__gbaf_vs_fixed__diversity__u5338__fwd", "verdict": "A", "confidence_1_to_5": 3, "notes_optional": "A has alt country, indie, classic; B all metal"}
+{"annotator_id": "annotator_05", "case_id": "amazon_cds__gbaf_vs_fixed__diversity__u906__fwd", "verdict": "TIE", "confidence_1_to_5": 2, "notes_optional": "Both all hip hop"}
+{"annotator_id": "annotator_05", "case_id": "mind__lightgcn_only_vs_fixed__diversity__u34804__rev", "verdict": "A", "confidence_1_to_5": 2, "notes_optional": "A more subcats"}
+{"annotator_id": "annotator_05", "case_id": "mind__lightgcn_only_vs_fixed__diversity__u29787__rev", "verdict": "B", "confidence_1_to_5": 3, "notes_optional": "B 5 cats (has finance) vs A 4"}
+{"annotator_id": "annotator_05", "case_id": "yelp__lightgcn_only_vs_fixed__diversity__u18930__rev", "verdict": "B", "confidence_1_to_5": 2, "notes_optional": "B 32 vs A 28"}
+{"annotator_id": "annotator_05", "case_id": "mind__gbaf_vs_fixed__diversity__u35942__rev", "verdict": "B", "confidence_1_to_5": 2, "notes_optional": "B 3 cats vs A 2"}
+{"annotator_id": "annotator_05", "case_id": "amazon_cds__gbaf_vs_fixed__diversity__u2105__rev", "verdict": "A", "confidence_1_to_5": 3, "notes_optional": "A has jazz (Miles, Brubeck, Coltrane) vs B all Stones"}
+{"annotator_id": "annotator_05", "case_id": "amazon_cds__gbaf_vs_fixed__diversity__u13209__fwd", "verdict": "A", "confidence_1_to_5": 3, "notes_optional": "A has Pink Floyd/Slipknot/Waters variety"}
+{"annotator_id": "annotator_05", "case_id": "mind__gbaf_vs_fixed__diversity__u29787__fwd", "verdict": "A", "confidence_1_to_5": 3, "notes_optional": "A 7 cats vs B 4"}
+{"annotator_id": "annotator_05", "case_id": "yelp__gbaf_vs_concat_mlp__diversity__u2600__fwd", "verdict": "A", "confidence_1_to_5": 3, "notes_optional": "A has more cuisine variety despite count"}
+{"annotator_id": "annotator_05", "case_id": "amazon_cds__lightgcn_only_vs_fixed__diversity__u2105__fwd", "verdict": "A", "confidence_1_to_5": 3, "notes_optional": "A has rock/jazz/soul variety vs B more jazz-focused"}
+{"annotator_id": "annotator_05", "case_id": "mind__lightgcn_only_vs_fixed__diversity__u7434__fwd", "verdict": "TIE", "confidence_1_to_5": 2, "notes_optional": "Very close"}
+{"annotator_id": "annotator_05", "case_id": "yelp__lightgcn_only_vs_fixed__diversity__u78602__rev", "verdict": "B", "confidence_1_to_5": 2, "notes_optional": "B 59 vs A 28"}
+{"annotator_id": "annotator_05", "case_id": "yelp__lightgcn_only_vs_fixed__diversity__u19308__fwd", "verdict": "B", "confidence_1_to_5": 3, "notes_optional": "B 66 vs A 59"}
+{"annotator_id": "annotator_05", "case_id": "amazon_cds__gbaf_vs_fixed__diversity__u14321__fwd", "verdict": "A", "confidence_1_to_5": 2, "notes_optional": "A has metal subgenre variety vs B mostly Metallica"}
+{"annotator_id": "annotator_05", "case_id": "mind__gbaf_vs_fixed__diversity__u23211__rev", "verdict": "A", "confidence_1_to_5": 2, "notes_optional": "A 6 cats vs B 5"}
+{"annotator_id": "annotator_05", "case_id": "amazon_cds__lightgcn_only_vs_fixed__diversity__u906__fwd", "verdict": "TIE", "confidence_1_to_5": 2, "notes_optional": "Both all hip hop"}
+{"annotator_id": "annotator_05", "case_id": "amazon_cds__lightgcn_only_vs_fixed__diversity__u5338__rev", "verdict": "B", "confidence_1_to_5": 3, "notes_optional": "B has alt/prog/punk vs A all metal"}
+{"annotator_id": "annotator_05", "case_id": "yelp__lightgcn_only_vs_fixed__diversity__u33987__fwd", "verdict": "TIE", "confidence_1_to_5": 2, "notes_optional": "Both have similar Philadelphia focus"}
+{"annotator_id": "annotator_05", "case_id": "mind__lightgcn_only_vs_fixed__diversity__u23211__rev", "verdict": "A", "confidence_1_to_5": 2, "notes_optional": "A 6 vs B 5"}
+{"annotator_id": "annotator_05", "case_id": "mind__gbaf_vs_fixed__diversity__u7434__rev", "verdict": "A", "confidence_1_to_5": 2, "notes_optional": "A 5 cats vs B 4"}
+{"annotator_id": "annotator_05", "case_id": "mind__gbaf_vs_fixed__diversity__u28130__fwd", "verdict": "A", "confidence_1_to_5": 4, "notes_optional": "A 6 cats vs B 3"}
+{"annotator_id": "annotator_05", "case_id": "mind__gbaf_vs_fixed__diversity__u42678__rev", "verdict": "A", "confidence_1_to_5": 2, "notes_optional": "A 5 cats vs B 4"}
+{"annotator_id": "annotator_05", "case_id": "yelp__gbaf_vs_concat_mlp__diversity__u81116__fwd", "verdict": "A", "confidence_1_to_5": 3, "notes_optional": "A 44 vs B 31"}
+{"annotator_id": "annotator_05", "case_id": "amazon_cds__gbaf_vs_fixed__global_diversity__annotator_05__fwd", "verdict": "B", "confidence_1_to_5": 5, "notes_optional": "Coverage@10: A=0.7286 B=0.9385"}
+{"annotator_id": "annotator_05", "case_id": "amazon_cds__lightgcn_only_vs_fixed__global_diversity__annotator_05__fwd", "verdict": "B", "confidence_1_to_5": 5, "notes_optional": "Coverage@10: A=0.0826 B=0.9385"}
+{"annotator_id": "annotator_05", "case_id": "mind__gbaf_vs_fixed__global_diversity__annotator_05__fwd", "verdict": "B", "confidence_1_to_5": 5, "notes_optional": "Coverage@10: A=0.3048 B=0.7349"}
+{"annotator_id": "annotator_05", "case_id": "mind__lightgcn_only_vs_fixed__global_diversity__annotator_05__rev", "verdict": "A", "confidence_1_to_5": 5, "notes_optional": "Coverage@10: A=0.7349 B=0.0793"}
+{"annotator_id": "annotator_05", "case_id": "yelp__gbaf_vs_concat_mlp__global_diversity__annotator_05__fwd", "verdict": "B", "confidence_1_to_5": 5, "notes_optional": "Coverage@10: A=0.4929 B=0.7977"}
+{"annotator_id": "annotator_05", "case_id": "yelp__lightgcn_only_vs_fixed__global_diversity__annotator_05__fwd", "verdict": "B", "confidence_1_to_5": 5, "notes_optional": "Coverage@10: A=0.0057 B=0.4758"}

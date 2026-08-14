@@ -1,0 +1,19 @@
+{
+  "seed": 42,
+  "dataset": "mind",
+  "model_type": "fixed_fusion",
+  "config_file": "/root/autodl-tmp/diversity_experiment/code/configs/extended/mind_fixed_baseline.yaml",
+  "checkpoint_file": "/root/autodl-tmp/diversity_experiment/code/../checkpoints/mind/fixed/best_model_seed42.pt",
+  "recall@10": 0.05970118952993438,
+  "ndcg@10": 0.02914176994586703,
+  "n_eval_users": 27678,
+  "coverage@k": 0.7348632179437313,
+  "gini@k": 0.9384309756866033,
+  "entropy@k": 0.5697682231370771,
+  "novelty@k": 6.422687844842742,
+  "tail_coverage@k": 0.6086047206453541,
+  "aggregate_diversity": 5668,
+  "k": 10,
+  "ils_text@k": 0.1718896006969748,
+  "ils_cf@k": 0.715577626135297
+}

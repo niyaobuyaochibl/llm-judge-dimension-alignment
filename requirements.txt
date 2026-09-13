@@ -12,5 +12,9 @@ transformers>=4.40
 accelerate>=0.30
 bitsandbytes>=0.43        # 4-bit quantization for the 14B judge
 
+# Additionally needed for the recommender code in recsys/
+pyyaml>=6.0
+sentence-transformers>=2.2   # only to regenerate item-text embeddings (all-MiniLM-L6-v2)
+
 # Additionally needed for the DeepSeek-V3 API validation
 openai>=1.30

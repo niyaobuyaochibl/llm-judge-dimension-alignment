@@ -1,0 +1,29 @@
+data:
+  dataset: yelp
+  data_dir: /root/autodl-tmp/extended_fusion/datasets/yelp
+
+text_encoder:
+  embedding_file: /root/autodl-tmp/extended_fusion/embeddings/yelp/all-MiniLM-L6-v2.pkl
+
+model:
+  type: concat_mlp_fusion
+  n_users: 99165
+  n_items: 56696
+  embedding_dim: 64
+  text_dim: 384
+  mlp:
+    hidden_sizes: [32, 16]
+    activation: relu
+    dropout: 0.1
+
+training:
+  batch_size: 2048
+  learning_rate: 0.003
+  weight_decay: 0.0
+  num_epochs: 30
+  early_stopping_patience: 3
+  negative_sampling: 4
+
+device: auto
+
+

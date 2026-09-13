@@ -4,13 +4,15 @@ Code, experiment outputs, and analysis for the paper:
 
 > Yunan Zhang, Jingjing Fan, and Yanxiao Liu.
 > **What Do LLM Judges Evaluate in Recommendation Assessment? Disentangling Relevance, Local Diversity, and System-Level Diversity.**
-> Under review at *IEEE Transactions on Knowledge and Data Engineering*.
+> Accepted for publication in *IEEE Transactions on Knowledge and Data Engineering*, 2026.
 
 When an LLM judge declares one recommendation list "better" than another, which quality
 dimension drives that verdict? This repository contains everything needed to reproduce the
 answer reported in the paper: 19,240 LLM calls across four datasets, 16 model pairs, four
 prompt designs, four LLM judges (7B–671B), four frontier closed-source judges, four
-diagnostic prompt controls, and a small human sanity check.
+diagnostic prompt controls, and a small human sanity check. It also contains the code and
+seed-42 checkpoints of the recommenders whose lists were judged (see
+[Recommender models](#recommender-models-and-checkpoints)).
 
 ## Reproducing the paper without a GPU
 
@@ -46,14 +48,15 @@ results/               judge verdicts, 233 files
 revision_results/      the 14 analysis CSVs cited in the paper
 human_study/           330 annotations from 5 annotators, plus the protocol
 data/topk_results/     top-10 lists produced by every recommender (item IDs)
+recsys/                recommender training/evaluation code, 22 configs, checkpoint checksums
 ```
 
 ## Full reproduction from scratch
 
 This path re-runs the judges and needs the source datasets, a GPU, and API keys.
 
-**Step 0.** Obtain the three source datasets and build the processed files. See
-[`data/README.md`](data/README.md); MIND, Yelp, and Amazon are not redistributed here.
+**Step 0.** Obtain the source datasets (MIND, Yelp, and two Amazon categories) and build the
+processed files. See [`data/README.md`](data/README.md); they are not redistributed here.
 
 **Step 1.** Point the code at your copies by editing the five path constants at the top of
 `code/experiment_config.py`:
@@ -86,6 +89,17 @@ python run_sensitivity_n100.py             # N = 100 sensitivity check
 
 No API key is stored in this repository; the two API scripts read them from the environment.
 
+## Recommender models and checkpoints
+
+The judges compared top-10 lists from six recommenders per dataset: GBAF, Fixed, Concat-MLP,
+GradNorm, PCGrad, and LightGCN. Their training and evaluation code is in
+[`recsys/`](recsys/), and the 22 seed-42 checkpoints that produced every list in
+`data/topk_results/` are attached to the
+[GitHub release](https://github.com/niyaobuyaochibl/llm-judge-dimension-alignment/releases)
+as four per-dataset archives (418 MB in total), with SHA-256
+checksums in `recsys/CHECKPOINT_SHA256SUMS.txt`. `recsys/README.md` maps each checkpoint to
+its config and shows how to regenerate the lists from a checkpoint or retrain from scratch.
+
 ## Experiment scale
 
 | Component | Calls |
@@ -115,8 +129,8 @@ task displayed only anonymized recommendation lists.
              Disentangling Relevance, Local Diversity, and System-Level Diversity},
   author  = {Zhang, Yunan and Fan, Jingjing and Liu, Yanxiao},
   journal = {IEEE Transactions on Knowledge and Data Engineering},
-  note    = {Under review},
-  year    = {2026}
+  year    = {2026},
+  note    = {Accepted; volume, issue, and DOI to follow}
 }
 ```
 
